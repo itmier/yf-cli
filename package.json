@@ -1,0 +1,25 @@
+{
+  "name": "yf-cli",
+  "version": "1.0.0",
+  "description": "yf-cli是一个提供快速开发模板的脚手架",
+  "main": "index.js",
+  "bin": {
+    "yf": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tmier",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^1.3.4",
+    "chalk": "^4.1.1",
+    "commander": "^7.2.0",
+    "download-git-repo": "^3.0.2",
+    "ejs": "^3.1.6",
+    "figlet": "^1.5.2",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^8.0.0",
+    "ora": "^5.4.0"
+  }
+}
