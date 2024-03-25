@@ -19,7 +19,7 @@ program.on('--help', () => {
     width: 80,
     whitespaceBreak: true
   }));
-  console.log(`\r\nRun ${chalk.cyan(`yf <command> --help`)} for detailed usage of given command\r\n`);
+  console.log(`\r\nRun ${chalk.cyan(`yunfei <command> --help`)} for detailed usage of given command\r\n`);
 })
 
 program.version(`v${require('../package.json').version}`)

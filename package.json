@@ -1,14 +1,14 @@
 {
   "name": "yunfei-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "yunfei-cli是一个提供快速开发模板的脚手架",
   "bin": {
-    "yf": "./bin/cli.js"
+    "yunfei": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-    "files": [
+  "files": [
     "bin",
     "lib"
   ],
@@ -22,9 +22,9 @@
     "node": ">= 16.0.0"
   },
   "author": "Tmier",
-    "keywords": [
+  "keywords": [
     "yunfei-cli",
-    "yf",
+    "yunfei",
     "脚手架",
     "快速开发模板"
   ],
